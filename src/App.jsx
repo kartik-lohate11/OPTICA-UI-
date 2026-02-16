@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '@/App.css';
-import { Header } from '@/components/HeaderWithBooking';
+// import { Header } from '@/components/HeaderWithBooking';
+import { Header } from '@/components/ui/user/HeaderWithAdmin.jsx';
+
 import { Footer } from '@/components/Footer';
 import { ProductCard } from '@/components/ProductCard';
 import { LensOptionCard } from '@/components/LensOptionCard';
