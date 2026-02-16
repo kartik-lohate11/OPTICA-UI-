@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '@/App.css';
-import { Header } from '@/components/Header';
+import { Header } from '@/components/HeaderWithBooking';
 import { Footer } from '@/components/Footer';
 import { ProductCard } from '@/components/ProductCard';
 import { LensOptionCard } from '@/components/LensOptionCard';
@@ -17,6 +17,7 @@ function App() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
+  
 
   return (
     <div className="App bg-white">
